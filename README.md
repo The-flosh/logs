@@ -7,8 +7,8 @@ par défaut la structure du fichiée access.log de apache2 est srtucturer comme 
 192.168.1.10 - - [17/Feb/2025:12:34:56 +0000] "GET /index.html HTTP/1.1" 200 3456 "http://google.com" "Mozilla/5.0"  
 ---  
 192.168.1.10 : Adresse IP du client  
-'- : Identifiant RFC 1413 (généralement vide)  
-'- : Nom d'utilisateur (authentification HTTP, souvent vide)  
+ - : Identifiant RFC 1413 (généralement vide)  
+ - : Nom d'utilisateur (authentification HTTP, souvent vide)  
 [17/Feb/2025:12:34:56 +0000] : Date et heure de la requête  
 "GET /index.html HTTP/1.1" : Méthode HTTP, ressource demandée et version du protocole  
 200 : Code de réponse HTTP (succès)  
