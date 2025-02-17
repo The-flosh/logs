@@ -23,5 +23,5 @@ donc pour voir les requetes qui ont réussi j'utilise la commande : grep ' 200 '
 pour le partit avec les erreur j'utilise : grep ' 404 ' /var/log/apache2/access.log
 ![error](https://github.com/The-flosh/logs/blob/main/ressources/error.JPG)
 ---
-et enfin pour voir les ip qui ont le plus fréquentée mon serveur web j'utilise : awk '{print $1}' /var/log/apache2/access.log | sort | uniq -c | sort -nr | head
+et enfin pour voir les ip qui ont le plus fréquentée mon serveur web j'utilise : awk '{print $1}' /var/log/apache2/access.log | sort | uniq -c | sort -nr | head  
 ![error](https://github.com/The-flosh/logs/blob/main/ressources/ip%20fréquente.JPG)
